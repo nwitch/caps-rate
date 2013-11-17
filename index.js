@@ -11,7 +11,7 @@ module.exports = function(value) {
   var caps = 0;
   var index = -1;
   while (++index < length) {
-    var chr = value[index];
+    var chr = value.charAt(index);
     if (chr.toLowerCase() !== chr && chr.toUpperCase() === chr) {
       caps++;
     }
