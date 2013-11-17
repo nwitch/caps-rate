@@ -18,6 +18,4 @@ test('works', function(t) {
   TEST_ARRAY.forEach(function(value) {
     t.equal(caps(value[0]), value[1]);
   });
-
-  console.log(caps('hello WORLD'))
 });
