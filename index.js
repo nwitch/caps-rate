@@ -3,7 +3,7 @@ module.exports = function(value) {
 
   var index = -1;
   var length = value.length;
-  while (index++ < length) {
+  while (++index < length) {
     var chr = value[index];
     if (chr.toLowerCase() !== chr && chr.toUpperCase() === chr) {
       caps++;
