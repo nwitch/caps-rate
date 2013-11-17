@@ -1,9 +1,7 @@
 module.exports = function(value) {
   var length = value.length;
 
-  // If `value` is an empty string, then it will have 0 caps and a length of 0,
-  // which, when divided, will yield `NaN`. A string with a length of 0 will
-  // obviously have no caps.
+  // A string with a length of 0 will obviously have no caps.
   if (!length) {
     return 0;
   }
