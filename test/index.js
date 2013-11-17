@@ -10,7 +10,10 @@ test('works', function(t) {
     ['KITTen', 2 / 3.0],
     ['KITTEn', 5 / 6.0],
     ['KITTEN', 1.0],
-    ['kittens ARE COOL', 7 / 16.0]
+    ['kittens ARE COOL', 7 / 16.0],
+    ['kitteñ', 0.0],
+    ['kitteÑ', 1 / 6.0],
+    ['kittÉÑ', 1 / 3.0]
   ];
 
   t.plan(TEST_ARRAY.length);
