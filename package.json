@@ -1,0 +1,29 @@
+{
+  "name": "caps-rate",
+  "version": "1.0.0",
+  "description": "Get frequency of YELLING.",
+  "keywords": [
+    "caps"
+  ],
+  "repository": "nwitch/caps-rate",
+  "license": "MIT",
+  "author": {
+    "name": "Kenan Yildirim",
+    "email": "kenan@kenany.me",
+    "web": "http://kenany.me/"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "devDependencies": {
+    "tape": "^2.1.0"
+  }
+}
