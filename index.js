@@ -17,5 +17,5 @@ module.exports = function(value) {
     }
   }
 
-  return caps / (length * 1.0);
+  return caps / length;
 };
