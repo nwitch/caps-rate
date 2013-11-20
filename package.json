@@ -7,11 +7,11 @@
   ],
   "repository": "nwitch/caps-rate",
   "license": "MIT",
-  "author": {
-    "name": "Kenan Yildirim",
-    "email": "kenan@kenany.me",
-    "web": "http://kenany.me/"
-  },
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "contributors": [
+    "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+    "Xavi Ramirez <xavi.rmz@gmail.com> (http://xavi.co/)"
+  ],
   "main": "index.js",
   "files": [
     "index.js",
