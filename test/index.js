@@ -25,7 +25,7 @@ test('works', function(t) {
 
   TEST_ARRAY.forEach(function(value) {
     var str = value[0];
-    var rate = value[1]
+    var rate = value[1];
     t.equal(caps(str), rate, testMessage(str, rate));
   });
 });
