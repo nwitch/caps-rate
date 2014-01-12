@@ -16,5 +16,5 @@ before_install:
   - nvm install $NODE_VERSION
   - node --version
   - npm cache clean
-  - npm install -g npm
+  - npm install -g npm@1.1.70
   - npm --version
