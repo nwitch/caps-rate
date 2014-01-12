@@ -15,4 +15,5 @@ before_install:
   - source ~/.nvm/nvm.sh
   - nvm install $NODE_VERSION
   - node --version
+  - npm install -g npm
   - npm --version
