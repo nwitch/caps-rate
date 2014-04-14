@@ -1,6 +1,6 @@
 # caps-rate
 
-[![Build Status](https://travis-ci.org/nwitch/caps-rate.png?branch=master)](https://travis-ci.org/nwitch/caps-rate)
+[![Build Status](https://travis-ci.org/nwitch/caps-rate.svg?branch=master)](https://travis-ci.org/nwitch/caps-rate)
 [![Dependency Status](https://gemnasium.com/nwitch/caps-rate.png)](https://gemnasium.com/nwitch/caps-rate)
 
 Get how much a string IS YELLING.
