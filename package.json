@@ -14,16 +14,25 @@
   ],
   "main": "index.js",
   "files": [
+    "CHANGELOG.md",
     "index.js",
     "LICENSE.txt"
   ],
   "directories": {
     "test": "test"
   },
+  "engines": {
+    "node": "16 || 18 || >=20"
+  },
   "scripts": {
+    "release": "semantic-release",
     "test": "tape test/index.js"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
+    "semantic-release": "^21.0.2",
     "tape": "^2.1.0"
   }
 }
