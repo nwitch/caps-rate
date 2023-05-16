@@ -33,6 +33,6 @@
     "@semantic-release/git": "^10.0.1",
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "semantic-release": "^21.0.2",
-    "tape": "^2.1.0"
+    "tape": "^2.14.1"
   }
 }
