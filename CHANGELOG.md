@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/nwitch/caps-rate/compare/2.0.0...3.0.0) (2023-10-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v16 is no longer supported.
+
+### Features
+
+* drop Node.js v16 support ([9ff08f4](https://github.com/nwitch/caps-rate/commit/9ff08f4c70905a5d30d738e7dcaee7e1b6f6fd14))
+
 ## [2.0.0](https://github.com/nwitch/caps-rate/compare/1.0.3...2.0.0) (2023-05-15)
 
 
